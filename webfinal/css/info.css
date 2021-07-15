@@ -1,0 +1,36 @@
+#info{
+    background: rgb(39, 39, 99);
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-seaanimals{
+    margin: 20px;
+
+}
+.info-seaanimals h4{
+    color: rgb(255, 255, 255);
+    font-family: 'Encode Sans SC', sans-serif; 
+}
+.info-seaanimals img{
+    width: 180px;
+    height: 180px;
+    border-radius:50% ;
+    border: 7px solid rgb(216, 237, 241);
+}
+@media (min-width:480px){
+    .info-seaanimals{
+        width: 40%;
+    }
+}
+@media (min-width:1024px){
+    .info-seaanimals{
+        width:auto;
+    }
+}
